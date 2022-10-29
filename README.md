@@ -3,7 +3,7 @@
 1. Clone the project to your local computer.
 2. run command "npm install" within the project directory in terminal.
 3. run command "npm start"
-4. The app will start in the localhost.
+4. The App will start in the localhost.
 
 
 ## Available Scripts
