@@ -1,0 +1,65 @@
+.thisWeekMenuContainer{
+    display: flex;
+    padding:5px 30px;
+    margin-bottom: 50px;
+}
+.thisWeekMenuFiltersContainer{
+    display: flex;
+    
+    gap:10px;
+    flex-wrap: nowrap;
+    padding: 20px 50px 10px 50px;
+}
+.subMenu{
+    display: flex;
+    overflow-x: hidden;
+}
+.subMenuContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: hidden;
+    padding: 20px 50px 10px 50px;
+    scroll-behavior: smooth;
+}
+.mediaBtn1{
+    position: relative;
+    top:30%;
+    width:40px;
+    height:fit-content;
+    border: rgb(210, 209, 209) 1px solid;
+    border-radius: 999px;
+    background-color: #fff;
+    box-shadow: 18px 0px 81px 0px rgb(128, 127, 128);
+    
+}
+
+.menuBtn{
+    
+    color:rgb(36, 35, 35);
+    border-radius: 30px;
+    border:medium none rgb(221, 221, 221);
+    background-color: rgb(242, 242, 242);
+    outline: none;
+    padding: 8px 16px;
+    white-space: nowrap;
+    text-align: center;
+}
+.menuBtn:hover{
+    color:#000;
+    
+}
+.weekFilterBtn{
+    color:rgb(36, 35, 35);
+    border-radius: 30px;
+    border:1px solid rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    padding: 8px 16px;
+    white-space: nowrap;
+    text-align: center;
+}
+.weekFilterBtn:hover{
+    color:#000;
+    border:1px solid rgb(72, 72, 72);
+}

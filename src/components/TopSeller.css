@@ -1,0 +1,87 @@
+.topSellerHead{
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+.topSellerHeadContainer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.topSellerHeadOptions{
+  margin-right: 15px;
+}
+.topSellerHeadOptions{
+  display: flex;
+  gap: 20px;
+}
+.topSellerOptionText{
+  color: rgb(47, 47, 47);
+  font-size: 14px;
+  text-decoration-line: underline;
+}
+.topSellerOptionText:hover{
+  cursor: pointer;
+  color:#000;
+}
+.cards-list {
+    display: flex;
+    margin-left: 2%;
+    width:96%;
+    flex-wrap: nowrap;
+    
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  .card {
+    width: 200px;
+    font-size: 14px;
+    flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: column; 
+    position: relative;
+  }
+  .bold{
+    font-weight: 900;
+  }
+  .gray{
+    color: rgb(134, 132, 132);
+  }
+  .card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+  }
+  
+  
+  .card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .card--stats {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card--star {
+    height: 14px;
+  }
+  
+  .card--price {
+    margin-top: auto;
+  }
+  
+  .card--badge {
+    position: absolute;
+
+    top: 6px;
+    left: 80%;
+    background-color: none;
+    padding: 5px 7px;
+    color:rgba(205, 201, 201, 1);
+   
+    
+  }
